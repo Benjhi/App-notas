@@ -1,5 +1,4 @@
-const { Router } = require('express');
-const router = Router();
+const router = require('express').Router();
 
 const { renderSignupForm, renderSigninForm, signup, signin, logout } = require('../controllers/users.controller')
 
